@@ -106,7 +106,7 @@ jobs:
           name: .net-app
           
       - name: Login to Azure
-        uses: azure/login@v1
+        uses: LN~8Q~OwzYY.-vIldiMJwbqgY7LWG5V2Yfo1zb51
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
